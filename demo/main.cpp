@@ -1,7 +1,7 @@
 #include "filesystem.hpp"
 
-int main() {
-  int main(int argc, char* argv[]){
+  int main(int argc, char* argv[])
+  {
     std::string path;
     if(argc > 1){
       path = argv[1];
